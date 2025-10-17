@@ -172,7 +172,7 @@ function createMeteor(){ meteors.push({x:Math.random()*W,y:Math.random()*0.1*H,v
 setInterval(createMeteor,1200);
 
 // =========== Right Menu & artworksData (完整保留并恢复你之前的项目数据) ===========
-const keywords = ["digital","sculpture","painting","interaction","fashion","animation","book"];
+const keywords = ["digital","sculpture","painting","interaction","fashion","animation","book","game"];
 const rightMenu = document.getElementById('rightMenu');
 
 const artworksData = {
@@ -208,6 +208,12 @@ const artworksData = {
     
   ],
   book:[
+    {title:"About My Own Book", images:[
+      'artworks/b1.jpg','artworks/b2.jpg','artworks/b3.jpg','artworks/b4.jpg','artworks/b5.jpg','artworks/b6.jpg',
+      'artworks/b7.jpg','artworks/b8.jpg','artworks/b9.jpg','artworks/b10.jpg','artworks/b11.jpg','artworks/b12.jpg'
+    ], desc:'The book I made for myself in 2022, where I tried to find myself, find the future, find my own romance.'}
+  ],
+   game:[
     {title:"About My Own Book", images:[
       'artworks/b1.jpg','artworks/b2.jpg','artworks/b3.jpg','artworks/b4.jpg','artworks/b5.jpg','artworks/b6.jpg',
       'artworks/b7.jpg','artworks/b8.jpg','artworks/b9.jpg','artworks/b10.jpg','artworks/b11.jpg','artworks/b12.jpg'
